@@ -1,3 +1,85 @@
-theme: jekyll-theme-minimal
-title: 2025,2026 免费VPN推荐，免费梯子推荐，免费翻墙，科学上网，免费机场，JumperVPN
-description: 2025/2026最快最稳最靠谱的梯子，白嫖免费VIP会员试用7天，日本美国香港韩国等节点稳定20-30万kbps。不限流不限速。https://jumpervpn.com 快来白嫖免费会员
+# 网站基本信息
+title: "2026年最好用的免费VPN推荐 - JumperVPN"
+description: "专为中国用户优化的VPN服务，支持支付宝/微信支付，一键解锁ChatGPT、Google、YouTube、Netflix。高速稳定、安全加密、全平台支持。"
+author: "JumperVPN Team"
+email: support@jumpervpn.com
+baseurl: "/jumpervpn.github.io" # 子路径
+url: "https://jumpervpn.github.io" #  GitHub用户名
+
+# SEO 优化
+lang: zh-CN
+keywords: 
+  - 免费VPN
+  - 免费梯子
+  - 免费机场
+  - 梯子推荐
+  - VPN推荐
+  - 机场推荐
+  - 翻墙软件
+  - 2026VPN
+  - 中国VPN
+  - 科学上网
+  - JumperVPN
+  - 支付宝VPN
+  - 翻墙工具
+  - 梯子
+  - ChatGPT VPN
+  - YouTube VPN
+
+# 社交媒体
+twitter:
+  username: jumper_vpn
+  card: summary_large_image
+
+facebook:
+  app_id: #  Facebook App ID 
+
+# Logo和图片
+logo: /assets/images/logo.png
+og_image: /assets/images/og-image.png
+
+# Jekyll 主题
+theme: jekyll-theme-cayman # 或者选择其他主题
+
+# 插件
+plugins:
+  - jekyll-seo-tag           # SEO优化
+  - jekyll-sitemap           # 自动生成sitemap
+  - jekyll-feed              # RSS订阅
+  - jekyll-redirect-from     # URL重定向
+
+# Markdown 设置
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+# 包含文件（确保Google验证文件被包含）
+include:
+  - google*.html
+
+# 页面生成
+permalink: /:title/
+
+# 集合配置（如果有多个页面）
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# 默认值
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      image: /assets/images/og-image.png
