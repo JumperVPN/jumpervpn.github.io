@@ -3,7 +3,7 @@ title: "2026年最好用的免费VPN推荐 - JumperVPN"
 description: "专为中国用户优化的VPN服务，支持支付宝/微信支付，一键解锁ChatGPT、Google、YouTube、Netflix。高速稳定、安全加密、全平台支持。"
 author: "JumperVPN Team"
 email: support@jumpervpn.com
-baseurl: "/jumpervpn.github.io" # 子路径
+baseurl: "" # 子路径
 url: "https://jumpervpn.github.io" #  GitHub用户名
 
 # SEO 优化
