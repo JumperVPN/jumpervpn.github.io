@@ -42,9 +42,6 @@ twitter:
   username: jumper_vpn
   card: summary_large_image
 
-facebook:
-  app_id: #  Facebook App ID 
-
 # Logo和图片
 logo: /assets/images/logo.png
 og_image: /assets/images/og-image.png
