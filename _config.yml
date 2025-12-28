@@ -25,6 +25,17 @@ keywords:
   - 梯子
   - ChatGPT VPN
   - YouTube VPN
+  - Netflix VPN
+  - 解锁流媒体 VPN
+  - V2Ray
+  - hysteria
+  - shodowsocks
+  - trojan
+  - VMess
+  - Vless
+  - Tuic
+  - Clash
+  - shadowrocket
 
 # 社交媒体
 twitter:
@@ -65,7 +76,7 @@ exclude:
 
 # 包含文件（确保Google验证文件被包含）
 include:
-  - google*.html
+  - google8f9831857d93d872.html
 
 # 页面生成
 permalink: /:title/
